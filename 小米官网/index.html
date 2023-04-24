@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>小米官网</title>
+		<!-- 导入css文件： -->
+		<link rel="stylesheet" href="framework/font-awesome/css/font-awesome.min.css"/>
+		<!-- 导入reset.css文件 -->
+		<link rel="stylesheet" href="framework/reset.css"/>
+		<!-- index.css -->
+		<link rel="stylesheet" href="css/index.css"/>
+		<!-- javascript -->
+		<script src="js/index.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<!-- 整体布局 -->
+	<!-- 	<div>
+			<header>
+				<div> -->
+					
+					<!-- 左边 -->
+				<!-- 	<div>
+						<ul>
+							<li><a>小米商城</a></li>
+							<li><a>MIUI</a></li>
+							<li><a>IoT</a></li>
+							<li><a>云服务</a></li>
+							<li><a>金融</a></li>
+							<li><a>有品</a></li>
+							<li><a>小爱开放平台</a></li>
+							<li><a>资质证照</a></li>
+							<li><a>协议规则</a></li>
+							<li><a>下载app</a></li>
+							<li><a>Select Location</a></li>
+						</ul>
+					</div> -->
+					
+					<!-- 右边 -->
+					<!-- <div> -->
+						<!-- <ul> --><!-- onclick点击时触发 -->
+							<!-- <li><a onclick="location.href='login.html'">登录</a></li> -->
+							<!-- <li><a>注册</a></li> -->
+							<!-- <li><a>消息通知</a></li> -->
+						<!-- </ul> -->
+						<!-- 购物车 -->
+					<!-- 	<div>
+							<i class="fa fa-shopping-cart"></i>购物车0 -->
+							<!-- 隐藏层 -->
+				<!-- 			<div>购物车中还没有商品，快来选购吧！</div>
+						</div>
+					</div>
+					
+				</div> -->
+			<!-- </header> -->
+			
+			
+		<!-- </div> -->
+		
+		<!-- 第一个总容器 -->
+		<div class="wrapper-first">
+		
+			<!-- 头部菜单-->
+			<header>
+				<div class="menu">
+					<div class="menu-left">
+						<ul>
+							<li><a>小米商城</a></li>
+							<li><a>MIUI</a></li>
+							<li><a>IoT</a></li>
+							<li><a>云服务</a></li>
+							<li><a>金融</a></li>
+							<li><a>有品</a></li>
+							<li><a>小爱开放平台</a></li>
+							<li><a>资质证照</a></li>
+							<li><a>协议规则</a></li>
+							<li><a>下载app</a></li>
+							<li><a>Select Location</a></li>
+						</ul>
+					</div>
+					<div class="menu-right">
+						<ul>
+							<li><a onclick="location.href='login.html'">登录</a></li>
+							<li><a>注册</a></li>
+							<li><a>消息通知</a></li>
+						</ul>
+						<div class="cart" id="cart">
+							<i class="fa fa-shopping-cart"></i>购物车（0）
+							<!-- 隐藏层 -->
+							<div class="cart-box" id="cartBox">购物车中还没有商品，赶紧选购吧！</div>
+						</div>
+					</div>
+				</div>
+			</header>
+		
+		
+			<!-- 企业logo部分-->
+			<div class="logo">
+				<div class="logo-box">
+					<div class="logo-img">
+						<img src="img/logo.png">
+					</div>
+					<ul>
+						<li class="logo-box-li">
+							<a>小米手机</a>
+							<!-- 隐藏层 -->
+							<div class="goods">
+								<ul>
+									<li onclick="location.href='goods.html'">
+										<img src="img/xiaomi01.jpg">
+										<h3>小米10 青春版 5G</h3>
+										<p>2099元起</p>
+									</li>
+									<li onclick="location.href='goods.html'">
+										<img src="img/xiaomi02.jpg">
+										<h3>小米10 Pro</h3>
+										<p>4999元起</p>
+									</li>
+									<li onclick="location.href='goods.html'">
+										<img src="img/xiaomi03.jpg">
+										<h3>小米10</h3>
+										<p>3799元起</p>
+									</li>
+									<li onclick="location.href='goods.html'">
+										<img src="img/xiaomi04.jpg">
+										<h3>小米CC9</h3>
+										<p>1499元起</p>
+									</li>
+									<li onclick="location.href='goods.html'">
+										<img src="img/xiaomi05.jpg">
+										<h3>小米CC9e</h3>
+										<p>1099元起</p>
+									</li>
+									<li onclick="location.href='goods.html'">
+										<img src="img/xiaomi06.jpg">
+										<h3>小米CC9 美图定制版</h3>
+										<p>1999元起</p>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="logo-box-li">
+							<a>Redmi 红米</a>
+							<div class="goods">
+								<ul>
+									<li onclick="location.href='goods.html'">
+										<img src="img/redmi01.jpg">
+										<h3>Redmi 9</h3>
+										<p>799元起</p>
+									</li>
+									<li onclick="location.href='goods.html'">
+										<img src="img/redmi02.jpg">
+										<h3>Redmi 10X 4G</h3>
+										<p>999元起</p>
+									</li>
+									<li onclick="location.href='goods.html'">
+										<img src="img/redmi03.jpg">
+										<h3>Redmi 10X 5G 系列</h3>
+										<p>1599元起</p>
+									</li>
+									<li onclick="location.href='goods.html'">
+										<img src="img/redmi04.jpg">
+										<h3>Redmi K30 Pro</h3>
+										<p>2699元起</p>
+									</li>
+									<li onclick="location.href='goods.html'">
+										<img src="img/redmi05.jpg">
+										<h3>Redmi K30 Pro 变焦版</h3>
+										<p>3799元起</p>
+									</li>
+									<li onclick="location.href='goods.html'">
+										<img src="img/redmi06.jpg">
+										<h3>Redmi K30</h3>
+										<p>1399元起</p>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="logo-box-li">
+							<a>电视</a>
+							<div class="goods">
+								<ul>
+									<li>电视</li>
+								</ul>
+							</div>
+						</li>
+						<li class="logo-box-li">
+							<a>笔记本</a>
+							<div class="goods">
+								<ul>
+									<li>笔记本</li>
+								</ul>
+							</div>
+						</li>
+						<li class="logo-box-li">
+							<a>家电</a>
+							<div class="goods">
+								<ul>
+									<li>家电</li>
+								</ul>
+							</div>
+						</li>
+						<li class="logo-box-li">
+							<a>路由器</a>
+							<div class="goods">
+								<ul>
+									<li>路由器</li>
+								</ul>
+							</div>
+						</li>
+						<li class="logo-box-li">
+							<a>智能硬件</a>
+							<div class="goods">
+								<ul>
+									<li>智能硬件</li>
+								</ul>
+							</div>
+						</li>
+						<li class="logo-box-li">
+							<a>服务</a>
+						</li>
+						<li class="logo-box-li">
+							<a>社区</a>
+						</li>
+					</ul>
+					<div class="search">
+						<input type="text" placeholder="小米10">
+						<div class="search-icon-box">
+							<i class="fa fa-search"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<!-- section内容-->
+			<section>
+				<!-- 横幅广告部分-->
+				<div class="banner">
+					<div class="banner-lunbo">
+						<img class="lunbo-img" src="img/lunbo1.jpg">
+						<img class="lunbo-img" src="img/lunbo2.jpg">
+						<img class="lunbo-img" src="img/lunbo3.jpg">
+						<img class="lunbo-img" src="img/lunbo4.jpg">
+						<img class="lunbo-img" src="img/lunbo5.jpg">
+					</div>
+					<div class="banner-mengban"></div>
+					<ul id="bannerUl">
+						<li>
+							<a>手机 电话卡</a>
+							<i class="fa fa-angle-right"></i>
+							<!-- 隐藏层 -->
+							<div class="banner-box">
+								<p>
+									<img src="./img/xiaomi01.jpg">小米10 青春版 5G
+								</p>
+								<p>
+									<img src="./img/xiaomi02.jpg">小米10 Pro
+								</p>
+								<p>
+									<img src="./img/xiaomi03.jpg">小米10
+								</p>
+								<p>
+									<img src="./img/xiaomi04.jpg">小米CC9
+								</p>
+							</div>
+						</li>
+						<li>
+							<a>电视 盒子</a>
+							<i class="fa fa-angle-right"></i>
+							<div class="banner-box">
+								<p>
+									<img src="./img/xiaomi01.jpg">小米10 青春版 5G
+								</p>
+							</div>
+						</li>
+						<li>
+							<a>笔记本 显示器 平板</a>
+							<i class="fa fa-angle-right"></i>
+							<div class="banner-box">
+								<p>
+									<img src="./img/xiaomi02.jpg">小米10 Pro
+								</p>
+							</div>
+						</li>
+						<li>
+							<a>家电 插线板</a>
+							<i class="fa fa-angle-right"></i>
+							<div class="banner-box">
+								<p>
+									<img src="./img/xiaomi04.jpg">小米CC9
+								</p>
+							</div>
+						</li>
+						<li>
+							<a>出行 穿戴</a>
+							<i class="fa fa-angle-right"></i>
+							<div class="banner-box">
+								<p>
+									<img src="./img/xiaomi05.jpg">小米CC9E
+								</p>
+							</div>
+						</li>
+						<li>
+							<a>智能 路由器</a>
+							<i class="fa fa-angle-right"></i>
+							<div class="banner-box">
+								<p>
+									<img src="./img/xiaomi06.jpg">小米CC9 美图定制版
+								</p>
+							</div>
+						</li>
+						<li>
+							<a>电源 配件</a>
+							<i class="fa fa-angle-right"></i>
+							<div class="banner-box">
+								<p>
+									<img src="./img/redmi01.jpg">Redmi 9
+								</p>
+							</div>
+						</li>
+						<li>
+							<a>健康 儿童</a>
+							<i class="fa fa-angle-right"></i>
+							<div class="banner-box">
+								<p>
+									<img src="./img/redmi02.jpg">Redmi 10X 4G
+								</p>
+							</div>
+						</li>
+						<li>
+							<a>耳机 音箱</a>
+							<i class="fa fa-angle-right"></i>
+							<div class="banner-box">
+								<p>
+									<img src="./img/redmi03.jpg">Redmi 10X 5G系列
+								</p>
+							</div>
+						</li>
+						<li>
+							<a>生活 箱包</a>
+							<i class="fa fa-angle-right"></i>
+							<div class="banner-box">
+								<p>
+									<img src="./img/redmi04.jpg">Redmi K30 Pro
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+		
+				<!-- 产品部分-->
+				<div class="product">
+					<ul>
+						<li>
+							<i class="fa fa-clock-o"></i>
+							<span>小米秒杀</span>
+						</li>
+						<li>
+							<i class="fa fa-building-o"></i>
+							<span>企业团购</span>
+						</li>
+						<li>
+							<i class="fa fa-road"></i>
+							<span>F码通道</span>
+						</li>
+						<li>
+							<i class="fa fa-credit-card"></i>
+							<span>米粉卡</span>
+						</li>
+						<li>
+							<i class="fa fa-refresh"></i>
+							<span>以旧换新</span>
+						</li>
+						<li>
+							<i class="fa fa-cny"></i>
+							<span>话费充值</span>
+						</li>
+					</ul>
+					<div class="product-img">
+						<img src="img/product1.jpg">
+					</div>
+					<div class="product-img">
+						<img src="img/product2.jpg">
+					</div>
+					<div class="product-img">
+						<img src="img/product3.jpg">
+					</div>
+				</div>
+			</section>
+		</div>
+		
+		<!-- 第二个总容器 -->
+		<div class="wrapper-second">
+			<section>
+				<div class="title">
+					<h2>小米闪购</h2>
+					<div class="btn-box">
+						<div class="btn-box-left" id="btnBoxLeft"><i class="fa fa-angle-left"></i></div>
+						<div class="btn-box-right" id="btnBoxRight"><i class="fa fa-angle-right"></i></div>
+					</div>
+				</div>
+				<div class="running-horse">
+					<div class="left">
+						<h4>24:00 场</h4>
+						<img src="./img/shangou.png">
+						<p>距离结束还有</p>
+						<div class="count-down">
+							<div id="hours">02</div>
+							<span>:</span>
+							<div id="minutes">14</div>
+							<span>:</span>
+							<div id="seconds">33</div>
+						</div>
+					</div>
+					<div class="right">
+						<div class="scroll-box" id="scrollBox">
+							<ul>
+								<li>
+									<img src="./img/shangou_goods01.png">
+									<p>小米无线鼠标 Lite 黑色</p>
+									<p>简约设计 轻盈握感</p>
+									<p>29元 <span>39元</span></p>
+								</li>
+								<li>
+									<img src="./img/shangou_goods02.png">
+									<p>积木 沙漠赛车 白色</p>
+									<p>炫酷的贴身玩伴</p>
+									<p>69元 <span>129元</span></p>
+								</li>
+								<li>
+									<img src="./img/shangou_goods03.png">
+									<p>小米小爱智能闹钟 白色</p>
+									<p>能听会说的人工智能闹钟</p>
+									<p>139元 <span>149元</span></p>
+								</li>
+								<li>
+									<img src="./img/shangou_goods04.png">
+									<p>米家三门冰箱215L 银色</p>
+									<p>三温区高效保鲜</p>
+									<p>1199元 <span>1499元</span></p>
+								</li>
+							</ul>
+							<ul>	
+								<li>
+									<img src="./img/shangou_goods05.png">
+									<p>小米有线耳机（K歌版）白色</p>
+									<p>我的私人KTV</p>
+									<p>149元 <span>169元</span></p>
+								</li>
+								<li>
+									<img src="./img/shangou_goods06.png">
+									<p>巨省电 | 小米新1级空调A 1.5匹</p>
+									<p>变频节能巨省电，自清洁</p>
+									<p>2199元 <span>2399元</span></p>
+								</li>
+								<li>
+									<img src="./img/shangou_goods07.png">
+									<p>小米移动电源3 10000mAh</p>
+									<p>大容量，超级闪充</p>
+									<p>139元 <span>149元</span></p>
+								</li>
+								<li>
+									<img src="./img/shangou_goods08.png">
+									<p>RedmiBook 13 i7 8G</p>
+									<p>让高性能全面展现</p>
+									<p>4499元 <span>5499元</span></p>
+								</li>
+							</ul>
+							<ul>	
+								<li>
+									<img src="./img/shangou_goods09.png">
+									<p>米家手电一体电动螺丝刀 黑色</p>
+									<p>小巧有力，得心应手</p>
+									<p>129元 <span>149元</span></p>
+								</li>
+								<li>
+									<img src="./img/shangou_goods10.png">
+									<p>米家电动剃须刀S500 黑色</p>
+									<p>浮动贴面更干净，减压设计更舒适</p>
+									<p>189元 <span>199元</span></p>
+								</li>
+								<li>
+									<img src="./img/shangou_goods11.png">
+									<p>小米手表Color 典雅黑</p>
+									<p>1540种出彩搭配，潮我看齐</p>
+									<p>699元 <span>799元</span></p>
+								</li>
+								<li>
+									<img src="./img/shangou_goods12.png">
+									<p>变频 | 米家互联网空调 1.5匹</p>
+									<p>变频节能，高效制冷热</p>
+									<p>2099元 <span>2699元</span></p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<!-- 各种产品区域 -->
+				<div class="area">
+					<div class="area-img">
+						<img src="./img/areaLogoImg01.png">
+					</div>
+					<h3>家电</h3>
+					<ul>
+						<li><img src="./img/areaImg01_01.png"></li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg01_02.png">
+							<p>Redmi 红米电视 70英寸</p>
+							<p>70英寸震撼巨屏，4K画质，细腻如真</p>
+							<p>3299元 <span>3799元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg01_03.png">
+							<p>小米全面屏电视E32C</p>
+							<p>全面屏设计，人工智能系统</p>
+							<p>1299元 <span>2799元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg01_04.png">
+							<p>小米全面屏电视E55A</p>
+							<p>全面屏设计，人工智能系统</p>
+							<p>2299元 <span>2799元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg01_05.png">
+							<p>米家空调</p>
+							<p>出众静音，快速制冷热</p>
+							<p>1499元 <span>1799元</span></p>
+						</li>
+						<li>
+							<img src="./img/areaImg01_06.png">
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg01_07.png">
+							<p>米家互联网洗烘一体机 Pro 10kg</p>
+							<p>智能洗烘，省心省力</p>
+							<p>2999元 <span>3999元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg01_08.png">
+							<p>Redmi全自动波轮洗衣机1A 8kg</p>
+							<p>一键操作，父母都爱用</p>
+							<p>849元 <span>899元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg01_09.png">
+							<p>Air 13.3\" 2019款</p>
+							<p>新一代独立显卡</p>
+							<p>5699元 <span>5999元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg01_10.png">
+							<p>米家互联网烟灶套装（天然气）</p>
+							<p>点火排烟，风随火动</p>
+							<p>2099元 <span>2299元</span></p>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="area">
+					<div class="area-img">
+						<img src="./img/areaLogoImg02.png">
+					</div>
+					<h3>智能</h3>
+					<ul>
+						<li><img src="./img/areaImg02_01.png"></li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg02_02.png">
+							<p>Redmi 红米电视 70英寸</p>
+							<p>70英寸震撼巨屏，4K画质，细腻如真</p>
+							<p>3299元 <span>3799元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg02_03.png">
+							<p>小米全面屏电视E32C</p>
+							<p>全面屏设计，人工智能系统</p>
+							<p>1299元 <span>2799元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg02_04.png">
+							<p>小米全面屏电视E55A</p>
+							<p>全面屏设计，人工智能系统</p>
+							<p>2299元 <span>2799元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg02_05.png">
+							<p>米家空调</p>
+							<p>出众静音，快速制冷热</p>
+							<p>1499元 <span>1799元</span></p>
+						</li>
+						<li>
+							<img src="./img/areaImg02_06.png">
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg02_07.png">
+							<p>米家互联网洗烘一体机 Pro 10kg</p>
+							<p>智能洗烘，省心省力</p>
+							<p>2999元 <span>3999元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg02_08.png">
+							<p>Redmi全自动波轮洗衣机1A 8kg</p>
+							<p>一键操作，父母都爱用</p>
+							<p>849元 <span>899元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg02_09.png">
+							<p>Air 13.3\" 2019款</p>
+							<p>新一代独立显卡</p>
+							<p>5699元 <span>5999元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg02_10.png">
+							<p>米家互联网烟灶套装（天然气）</p>
+							<p>点火排烟，风随火动</p>
+							<p>2099元 <span>2299元</span></p>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="area">
+					<div class="area-img">
+						<img src="./img/areaLogoImg03.png">
+					</div>
+					<h3>搭配</h3>
+					<ul>
+						<li><img src="./img/areaImg03_01.png"></li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg03_02.png">
+							<p>Redmi 红米电视 70英寸</p>
+							<p>70英寸震撼巨屏，4K画质，细腻如真</p>
+							<p>3299元 <span>3799元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg03_03.png">
+							<p>小米全面屏电视E32C</p>
+							<p>全面屏设计，人工智能系统</p>
+							<p>1299元 <span>2799元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg03_04.png">
+							<p>小米全面屏电视E55A</p>
+							<p>全面屏设计，人工智能系统</p>
+							<p>2299元 <span>2799元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg03_05.png">
+							<p>米家空调</p>
+							<p>出众静音，快速制冷热</p>
+							<p>1499元 <span>1799元</span></p>
+						</li>
+						<li>
+							<img src="./img/areaImg03_06.png">
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg03_07.png">
+							<p>米家互联网洗烘一体机 Pro 10kg</p>
+							<p>智能洗烘，省心省力</p>
+							<p>2999元 <span>3999元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg03_08.png">
+							<p>Redmi全自动波轮洗衣机1A 8kg</p>
+							<p>一键操作，父母都爱用</p>
+							<p>849元 <span>899元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg03_09.png">
+							<p>Air 13.3\" 2019款</p>
+							<p>新一代独立显卡</p>
+							<p>5699元 <span>5999元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg03_10.png">
+							<p>米家互联网烟灶套装（天然气）</p>
+							<p>点火排烟，风随火动</p>
+							<p>2099元 <span>2299元</span></p>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="area">
+					<div class="area-img">
+						<img src="./img/areaLogoImg04.png">
+					</div>
+					<h3>周边</h3>
+					<ul>
+						<li><img src="./img/areaImg04_01.png"></li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg04_02.png">
+							<p>Redmi 红米电视 70英寸</p>
+							<p>70英寸震撼巨屏，4K画质，细腻如真</p>
+							<p>3299元 <span>3799元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg04_03.png">
+							<p>小米全面屏电视E32C</p>
+							<p>全面屏设计，人工智能系统</p>
+							<p>1299元 <span>2799元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg04_04.png">
+							<p>小米全面屏电视E55A</p>
+							<p>全面屏设计，人工智能系统</p>
+							<p>2299元 <span>2799元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg04_05.png">
+							<p>米家空调</p>
+							<p>出众静音，快速制冷热</p>
+							<p>1499元 <span>1799元</span></p>
+						</li>
+						<li>
+							<img src="./img/areaImg04_06.png">
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg04_07.png">
+							<p>米家互联网洗烘一体机 Pro 10kg</p>
+							<p>智能洗烘，省心省力</p>
+							<p>2999元 <span>3999元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg04_08.png">
+							<p>Redmi全自动波轮洗衣机1A 8kg</p>
+							<p>一键操作，父母都爱用</p>
+							<p>849元 <span>899元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg04_09.png">
+							<p>Air 13.3\" 2019款</p>
+							<p>新一代独立显卡</p>
+							<p>5699元 <span>5999元</span></p>
+						</li>
+						<li>
+							<img class="area-item-img" src="./img/areaImg04_10.png">
+							<p>米家互联网烟灶套装（天然气）</p>
+							<p>点火排烟，风随火动</p>
+							<p>2099元 <span>2299元</span></p>
+						</li>
+					</ul>
+				</div>
+				
+			</section>
+			
+		</div>	
+		
+		<footer>
+			<ul>
+				<li>
+					<h5>帮助中心</h5>
+					<p>账户管理</p>
+					<p>购物指南</p>
+					<p>订单操作</p>
+				</li>
+				<li>
+					<h5>服务支持</h5>
+					<p>售后政策</p>
+					<p>自助服务</p>
+					<p>相关下载</p>
+				</li>
+				<li>
+					<h5>线下门店</h5>
+					<p>小米之家</p>
+					<p>服务网点</p>
+					<p>授权体验店</p>
+				</li>
+				<li>
+					<h5>关于小米</h5>
+					<p>了解小米</p>
+					<p>加入小米</p>
+					<p>投资者关系</p>
+					<p>企业社会责任</p>
+					<p>廉洁举报</p>
+				</li>
+				<li>
+					<h5>关注我们</h5>
+					<p>新浪微博</p>
+					<p>官方微信</p>
+					<p>联系我们</p>
+					<p>公益基金会</p>
+				</li>
+				<li>
+					<h5>特色服务</h5>
+					<p>F 码通道</p>
+					<p>礼物码</p>
+					<p>防伪查询</p>
+				</li>
+			</ul>
+			<h3>让全球每个人都能享受科技带来的美好生活</h3>
+		</footer>
+		
+		<script src="js/index.js"></script>
+	</body>
+</html>

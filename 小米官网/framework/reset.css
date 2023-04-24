@@ -1,0 +1,15 @@
+/************************ css 重置 ************************/
+html,body,div,span,h1,h2,h3,h4,h5,h6,ul,li,p{
+	margin: 0;/* 外边距 */
+	padding: 0;/* 内边距 */
+}
+html,body{
+	width: 100%;/* 设置宽度百分百，高度自适应 */
+	font-family: Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+}/* 添加部分字体 */
+ul{/* 列表，去掉列表样式 */
+	list-style: none;
+}
+a{/* 超链接 去掉超链接下划线*/
+	text-decoration: none;
+}
